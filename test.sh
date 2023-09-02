@@ -1,0 +1,1 @@
+python src/inference.py --num_inference_steps 20 --dataset dresscode --dresscode_dataroot ./input  --output_dir ./results --test_order unpaired  --batch_size 3 --num_workers 2 --enable_xformers_memory_efficient_attention

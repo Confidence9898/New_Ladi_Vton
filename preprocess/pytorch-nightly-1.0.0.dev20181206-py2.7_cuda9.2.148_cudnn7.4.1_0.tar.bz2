@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    
+    <title>Login :: Anaconda.org</title>
+    <link rel="shortcut icon" href="//binstar-static-prod.s3.amazonaws.com/latest/img/apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="//binstar-static-prod.s3.amazonaws.com/latest/css/app.css">
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+    <script src="//binstar-static-prod.s3.amazonaws.com/latest/js/bundle.js"></script>
+    
+    <script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
+    
+    <script data-cfasync="false" data-report-only="off" src="https://cdn.transcend.io/cm/471944e6-c8d1-4cfe-902c-0ed1695b7053/airgap.js"></script>
+    
+    
+
+    <!-- Start VWO Async SmartCode -->
+    <script type='text/javascript'>
+      window._vwo_code = window._vwo_code || (function(){
+      var account_id=515061,
+          settings_tolerance=2000,
+          library_tolerance=2500,
+          use_existing_jquery=false,
+          is_spa=1,
+          hide_element='body',
+
+      /* DO NOT EDIT BELOW THIS LINE */
+      f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
+      window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+    </script>
+    <!-- End VWO Async SmartCode -->
+
+  </head>
+  <body >
+    
+    
+      <div class="contain-to-grid">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1>
+          <a class="navbar-brand" href="/">
+            <img src="//binstar-static-prod.s3.amazonaws.com/latest/img/anaconda_org_logo.svg"
+                 class=" small " />
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      
+      <ul class="left">
+        <li class="has-form">
+          <form action="/search">
+            <div class="row collapse">
+              <div class="small-9 columns">
+                <input type="text" placeholder="Search Anaconda.org" name="q">
+              </div>
+              <div class="small-3 columns">
+                <button type="submit" class="button postfix fa fa-search"></button>
+              </div>
+            </div>
+          </form>
+        </li>
+      </ul>
+      
+      <ul class="right">
+        
+        <li><a href="/gallery">Gallery</a></li>
+        
+        
+        <li><a href="https://www.anaconda.com/about-us">About</a></li>
+        <li><a href="https://www.anaconda.com/pricing" target="_blank">Anaconda</a></li>
+        <li><a href="https://docs.anaconda.com/free/anacondaorg/user-guide/" target="_blank">Help</a></li>
+        <li><a href="https://www.anaconda.com/download" target="_blank">Download Anaconda</a></li>
+        <li>
+          <form method="GET" action="/account/login?next=%2Fpytorch%2Fpytorch-nightly%2F1.0.0.dev20181206%2Fdownload%2Flinux-64%2Fpytorch-nightly-1.0.0.dev20181206-py2.7_cuda9.2.148_cudnn7.4.1_0.tar.bz2">
+            <button type="submit" class="sign-in-header">Sign In</button>
+          </form>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
+    
+    
+    <div class="container">
+      
+      <div class="row">
+        <div class="columns medium-12">
+          
+          
+          <div id="messages">
+            
+            <div class="alert-box warning" data-alert>
+              You&#39;re trying to access a page that requires authentication.
+              <a href="#" class="close">&times;</a>
+            </div>
+            
+          </div>
+          
+          
+          
+        </div>
+      </div>
+
+      
+
+      
+        <div class="row"><div class="columns medium-12">
+<div class="row">
+  <div class="columns medium-6 medium-offset-3 end text-center">
+    <h2>Sign in to Anaconda.org</h2>
+    <br>
+    
+
+
+
+
+<form action="/account/login" method="post" class="signup-form">
+  <input id="csrf_token" name="csrf_token" type="hidden" value="ImE5ZWI5YTYzYmY2ODkxZDU5NmJlYjlkMmIxODk5MWY2ODI4OGM2MWIi.ZKSOxQ.1Z06cZKCgA4_4ku3UhK81hpOLwc">
+  <input type="hidden" name="next" value="/pytorch/pytorch-nightly/1.0.0.dev20181206/download/linux-64/pytorch-nightly-1.0.0.dev20181206-py2.7_cuda9.2.148_cudnn7.4.1_0.tar.bz2">
+  <input id="username" name="username"
+         placeholder="Username"
+         class=""
+         type="text"
+         value="" >
+  <small id="username-error"class="error" style="display: none"></small>
+  
+  <input id="password" name="password"
+         placeholder="Password"
+         class=""
+         type="password"
+         value="" >
+  <small id="password-error"class="error" style="display: none"></small>
+
+  <button type="submit" id="logInButton" class="expand" type="submit">Log In</button>
+</form>
+<p>
+  <a href="/account/forgot_password">I forgot my password.</a>
+  <br>
+  <a href="/account/forgot_username">I forgot my username.</a>
+  
+    <br>
+    <a href="/account/register">Register for an account.</a>
+  
+</p>
+  </div>
+</div>
+</div></div>
+      
+    </div>
+    <footer class="">
+  
+  <div class="row footer-row">
+    <div class="columns medium-3">
+      <img src="/static/img/anaconda-symbol.svg" width="63" height="63"/>
+      <p class="footer-slogan">By data scientists, for <span class="footer-slogan-accent">data scientists</span></p>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/anacondainc" target="_blank" aria-haspopup="true" data-tooltip title="Find us on Facebook">
+        <img src="/static/img/social-icons/facebook-new.svg"/>
+        </a>
+        <a href="https://twitter.com/anacondainc" target="_blank" aria-haspopup="true" data-tooltip title="Follow us on Twitter">
+          <img src="/static/img/social-icons/twitter-new.svg"/>
+        </a>
+        <a href="https://www.linkedin.com/company/anacondainc" target="_blank" aria-haspopup="true" data-tooltip title="Find us on LinkedIn">
+          <img src="/static/img/social-icons/linkedin-new.svg"/>
+        </a>
+        <a href="https://github.com/ContinuumIO" target="_blank" aria-haspopup="true" data-tooltip title="Follow us on GitHub">
+          <img src="/static/img/social-icons/github-new.svg"/>
+        </a>
+        <a href="https://www.instagram.com/anaconda_inc/" target="_blank" aria-haspopup="true" data-tooltip title="Follow us on Instagram">
+          <img src="/static/img/social-icons/instagram-new.svg"/>
+        </a>
+        <a href="https://www.youtube.com/c/ContinuumIo" target="_blank" aria-haspopup="true" data-tooltip title="Watch us on YouTube">
+          <img src="/static/img/social-icons/youtube-new.svg"/>
+        </a>
+      </div>
+    </div>
+    <div class="columns medium-3">
+      <h5>ANACONDA</h5>
+      <p>
+        <a href="https://www.anaconda.com/about-us">About Us</a><br>
+        <a href="https://anaconda.cloud/?utm_source=anacondaorg" target="_blank">Anaconda Cloud</a><br>
+        <a href="https://www.anaconda.com/download" target="_blank">Download Anaconda</a><br>
+      </p>
+    </div>
+    <div class="columns medium-3">
+      <h5>ANACONDA.ORG</h5>
+      <p>
+        <a href="https://www.anaconda.com/about-us">About</a><br>
+        <a href="/gallery">Gallery</a><br>
+        <a href="https://docs.anaconda.com/free/anacondaorg/user-guide/" target="_blank">Documentation</a><br>
+        <a href="https://anaconda.org/contact/report">Support</a><br>
+      </p>
+    </div>
+    <div class="columns medium-3 end">
+      <h5>COMMUNITY</h5>
+      <p>
+        <a href="https://www.anaconda.com/open-source" target="_blank">Open Source</a><br>
+        <a href="https://numfocus.org" target="_blank">NumFOCUS</a><br>
+        <a href="https://conda-forge.org" target="_blank">conda-forge</a><br>
+        <a href="https://www.anaconda.com/blog" target="_blank">Blog</a><br>
+      </p>
+    </div>
+  </div>
+
+</footer>
+<div class="license full-width">
+  <div class="row licence-row">
+    <div class="columns medium-12 text-center">
+      <h5>
+        <hr class="licence-hr">
+        <span class="licence-copyright">&copy; 2023 Anaconda, Inc. All Rights Reserved. (v2.37.6 8f699865)</span>
+        
+        <span class="licence-policies">
+          <a href="https://legal.anaconda.com/policies/en/?name=anaconda-org-terms-and-conditions" target="_blank">Legal</a>
+          &#124;
+          <a href="https://www.anaconda.com/privacy-policy" target="_blank">Privacy Policy</a>
+        </span>
+        
+      </h5>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MTFQWW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTFQWW');</script>
+<!-- End Google Tag Manager -->
+    
+    <div id="ajax-modal" class="reveal-modal" data-reveal aria-hidden="true"></div>
+  </body>
+</html>
