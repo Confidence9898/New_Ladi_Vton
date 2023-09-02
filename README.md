@@ -170,3 +170,8 @@ This work has partially been supported by the PNRR project “Future Artificial 
 ## LICENSE
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />All material is made available under [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicate any changes** that you've made.
 
+## HINT
+The ladi-vton-DressCode.ipynb contain the preprocessing step for custome image. There is the preprocessing step in this working file, and if we run these step, we can get the proprocessed dataset for custom images. So you don't need to worry about the preprocessing about the custom image.
+
+## Disadvantage of current Ladi-Vton
+The ladi-vton is the most advanced method to implement Virtual Try-On. We can implement successfully virtual try-on about Upper_body, Lower_body and Dresses. But there is a one point that we can't implement. It is we can implement Dress virtual try-on for the case of Trousers and Pants. So to implement this we should find another method.
