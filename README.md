@@ -159,4 +159,4 @@ This work has partially been supported by the PNRR project “Future Artificial 
 The ladi-vton-DressCode.ipynb contain the preprocessing step for custome image. There is the preprocessing step in this working file, and if we run these step, we can get the proprocessed dataset for custom images. So you don't need to worry about the preprocessing about the custom image.
 
 ## Disadvantage of current Ladi-Vton
-The ladi-vton is the most advanced method to implement Virtual Try-On. We can implement successfully virtual try-on about Upper_body, Lower_body and Dresses. But there is a one point that we can't implement. It is we can implement Dress virtual try-on for the case of Trousers and Pants. So to implement this we should find another method.
+The ladi-vton is the most advanced method to implement Virtual Try-On. We can implement successfully virtual try-on about Upper_body, Lower_body and Dresses. But there is a one point that we can't implement. It is we can't implement Dress virtual try-on successfully for the case of Trousers and Pants. So to implement this we should find another method.
